@@ -12,7 +12,7 @@ const Footer = ({ theme }) => {
             className='bg-slate-50 dark:bg-gray-900 pt-10 sm:pt-10 mt-20 sm:mt-40 px-4 sm:px-10 lg:px-24 xl:px-40'>
 
             {/* footer top */}
-            <div className='flex justify-between ig:items-centre mx-lg:flex-col gap-10'>
+            <div className='flex flex-col ig:flex-rowjustify-between items-centre gap-10'>
                 <motion.div
                     initial={{ opacity: 0, y: -30 }}
                     whileInView={{ opacity: 1, y: 0 }}
